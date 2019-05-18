@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-mermaid",
+  "name": "markdown-it-mermaid-plus",
   "version": "0.2.5",
   "description": "Mermaid plugin for markdown-it.",
   "main": "dist/index.js",
@@ -10,8 +10,8 @@
     "test": "node -r babel-register test/index.js",
     "upgrade": "yarn-upgrade-all"
   },
-  "repository": "git@github.com:tylingsoft/markdown-it-mermaid.git",
-  "author": "Tyler Long <tyler4long@gmail.com>",
+  "repository": "git@github.com:yansenlei/markdown-it-mermaid.git",
+  "author": "yansenlei <leiyswork@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -24,6 +24,6 @@
     "yarn-upgrade-all": "^0.2.0"
   },
   "dependencies": {
-    "mermaid": "^7.1.2"
+    "mermaid": "^8.0.0"
   }
 }
